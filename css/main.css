@@ -1,0 +1,257 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "dayrom";
+    src: url("../polices/dayrom.ttf");
+}
+
+@font-face {
+    font-family: "ballpark";
+    src: url("../polices/ballpark.ttf");
+}
+
+.container{
+    width: 900px;
+    margin:0 auto;
+}
+
+body{
+    background-image:url(../img/fond_jaune.png) ;
+    text-decoration-color: #181818;
+    font-family:  "Trebuchet MS", sans-serif  ;
+    
+}
+
+.header-info{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carnet{
+    font-size: 24px;
+}
+
+.logo_mosafer{
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+
+.logo_mosafer p{
+    font-family: "Trebuchet MS", sans-serif ;
+   
+    font-size: 36px;
+    line-height: 60px;
+    width:160px;
+    text-align: center;
+    text-transform:  capitalize; 
+    
+}
+
+nav{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    border-top: 3px;
+}
+
+nav ul li a{
+    color: #181818;
+}
+.separateur{
+    background-image: url(../img/separateur.png);
+    width: 100%;
+    height: 4px;
+    margin: 15px 0;
+}
+
+.article{
+    background-image: url(../img/Kotoubia.png);
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.article_details{
+    width: 100%;
+    height: 35px;
+    background-color:rgba(24, 24, 24, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_details p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.article_details button{
+    width: 140px;
+    border-radius: 5px;
+    border-color: rgb(107, 6, 6);
+    background-color: rgb(168, 16, 16);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.body_content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+section{
+    width: 70%;
+}
+
+aside{
+    width: 32%;
+    background-color: #706b64;
+    height: 500px;
+    border-radius: 20px;
+    padding:15px;
+    color:#ffffff;
+    box-shadow: 5px 5px 16px #000;
+}
+
+
+aside h1{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+aside *{
+    margin-bottom: 20px;
+}
+
+aside div{
+    margin-bottom: 0px;
+}
+
+.photo_profile img:nth-child(2){
+    position :relative;
+    left:50%;
+    transform: translateX(-60%);
+    box-shadow: 2px 2px #000;
+}
+
+.photo_profile img:first-child{
+    position: relative;
+    left:-26px;
+    top:-50px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titre{
+    display: flex;
+    width: 70%;
+    align-items:  center;
+}
+
+.titre p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.texte p{
+    margin-top:30px;
+}
+
+.drop_down_icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 27%, 35%,30%;
+    font-size: 5px;
+}
+.separateur:nth-child(2){
+    margin-bottom: 0px;
+}
+
+section:last-child{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section:last-child h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.tweet{
+    width: 27%;
+}
+
+.tweet p {
+    margin-bottom: 10px;
+}
+.photo{
+    width: 35%;
+}
+
+.photo img{
+    border:1px #000000  solid;
+}
+
+.amis{
+    width: 40%;
+}
+
+.liste_amis{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(216, 32, 32);
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.liste_amis ul{
+    list-style-image: url(../img/ico_liensexterne.png);
+}
+
+
